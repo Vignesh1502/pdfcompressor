@@ -78,7 +78,7 @@ const PdfUploadForm = () => {
 
       {compressionDetails && (
         <div className="compression-details">
-          <h3>Compression Details</h3>
+          <h3>Compression Details For the file</h3>
           <p>Original Size: {compressionDetails.originalSize} KB</p>
           <p>Compressed Size: {compressionDetails.compressedSize} KB</p>
           <p>Compression Ratio: {compressionDetails.compressionRatio}%</p>
